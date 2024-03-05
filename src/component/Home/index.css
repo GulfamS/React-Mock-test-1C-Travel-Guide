@@ -1,0 +1,44 @@
+.app-container {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #334155;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+hr {
+  height: 3px;
+  width: 12vw;
+  background-color: #52bbf0;
+  margin-top: 0px;
+}
+
+.location-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
